@@ -31,9 +31,9 @@
   </g>
 </g>
 
-<path d="M64 252 H330 L350 252 L362 242 L374 252 L392 252 L405 221 L420 286 L438 192 L454 252 L471 252 L486 239 L500 252 H1136"
+<path d="M64 252 H330 L350 252 L362 246 L374 252 L398 252 L406 236 L412 278 L418 206 L426 252 L452 252 L466 244 L480 252 H1136"
       fill="none" stroke="#26324e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M64 252 H330 L350 252 L362 242 L374 252 L392 252 L405 221 L420 286 L438 192 L454 252 L471 252 L486 239 L500 252 H1136"
+<path d="M64 252 H330 L350 252 L362 246 L374 252 L398 252 L406 236 L412 278 L418 206 L426 252 L452 252 L466 244 L480 252 H1136"
       fill="none" stroke="url(#accent)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"
       stroke-dasharray="1180" stroke-dashoffset="1180" filter="url(#softGlow)">
   <animate attributeName="stroke-dashoffset" values="1180;0;0" keyTimes="0;0.72;1" dur="4.8s" repeatCount="indefinite"/>
