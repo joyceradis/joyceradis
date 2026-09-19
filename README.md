@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/joyceradis/joyceradis/main/profile-assets/joyce-header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/joyceradis/joyceradis/main/profile-assets/joyce-header-light.svg">
-  <img alt="Dra. Joyce Radis — Medicine × Software × AI" src="https://raw.githubusercontent.com/joyceradis/joyceradis/main/profile-assets/joyce-header-light.svg" width="100%">
+  <img alt="Dra. Joyce Radis — Medicine × Software" src="https://raw.githubusercontent.com/joyceradis/joyceradis/main/profile-assets/joyce-header-light.svg" width="100%">
 </picture>
 
 <p align="center">
@@ -23,40 +23,36 @@
 
 I am a Brazilian physician (CRM-ES 21188) working in **emergency care** and **court-appointed medical expertise**.
 
-Most of my software begins with the same observation:
+I build software around problems I have actually met in clinical and medico-legal work.
 
-> **A professional is spending attention on work a system should be carrying.**
+That usually means starting with the workflow itself: what happened, what is known, what is still uncertain, what needs a source, and what the software must never invent.
 
-I see the problem as a physician first. Then I model the domain until it can become a workflow, a data structure, an interface and — when useful — a working product.
-
-I am particularly interested in the parts of healthcare where generic automation fails: **temporality, uncertainty, evidence, traceability, permissions, clinical context and human review**.
-
-**I build from the domain outward:** real problem → domain model → workflow/state → data/rules → interface → validation.
+**Real workflow → clear rules → usable software.**
 
 ---
 
-## 02 / SELECTED SYSTEMS
+## 02 / PROJECTS
 
-| System | The question behind it | Technical evidence |
+| Project | Why I built it | What is in the repo |
 | --- | --- | --- |
-| **[ZeraPS](https://github.com/joyceradis/ZeraPS)** | Can emergency documentation move at clinical speed without erasing temporality or manufacturing certainty? | JavaScript · PWA · temporal state model · automated tests · CI · safety invariants |
-| **[VoeTupper](https://github.com/joyceradis/VoeTupper)** | Can a distributed operation be modeled around hierarchy, permissions, goals and real workflows instead of spreadsheets? | Next.js · React · TypeScript · Supabase · Zod · Vitest · authorization model |
-| **[AuditorES](https://github.com/joyceradis/AuditorES)** | Can operational risk be surfaced without turning an automated alert into a technical conclusion? | JavaScript · Chart.js · structured data · decision-support UI · human-in-the-loop |
-| **[EcoMaster Pro](https://github.com/joyceradis/EcoMasterPro)** | Can medical knowledge be structured for rapid use without pretending that a threshold is a diagnosis? | JavaScript · clinical knowledge modeling · structured references · clinical UX |
-| **[Joyce · Estudos](https://github.com/joyceradis/Estudos-Dra-Joyce-Radis)** | Can exam preparation be driven by error patterns, recurrence and recency instead of a vanity percentage? | JavaScript · JSON data model · analytics · rule engine · Node.js tests |
-| **[HMS](https://github.com/joyceradis/HMS)** | What changes when an emergency interface is designed around physician workflow rather than around forms? | JavaScript · workflow prototyping · clinical UX · product iteration |
+| **[ZeraPS](https://github.com/joyceradis/ZeraPS)** | Emergency documentation for a high-volume PS without losing chronology or inventing findings. | JavaScript · PWA · temporal states · automated tests · CI |
+| **[VoeTupper](https://github.com/joyceradis/VoeTupper)** | Replace part of a distributed sales operation built around spreadsheets with a usable system. | Next.js · React · TypeScript · Supabase · Zod · Vitest |
+| **[AuditorES](https://github.com/joyceradis/AuditorES)** | Organize healthcare audit data and surface what deserves human review. | JavaScript · Chart.js · structured data · decision-support UI |
+| **[EcoMaster Pro](https://github.com/joyceradis/EcoMasterPro)** | Turn echocardiography references into a faster study and consultation interface. | JavaScript · structured clinical references · clinical UX |
+| **[Joyce · Estudos](https://github.com/joyceradis/Estudos-Dra-Joyce-Radis)** | Track residency-exam errors and review what actually needs to be studied again. | JavaScript · JSON · analytics · rule engine · Node.js tests |
+| **[Kit do Perito](https://github.com/joyceradis/pericia-medica)** | Bring calculations and references I already used in medical expertise into one practical web tool. | JavaScript · Balthazard · AIPE/Brasil · automated tests · GitHub Actions |
 
-The domains change. The pattern does not: **understand the work deeply enough to encode it without flattening it.**
+The projects are different, but they all started with a workflow I wanted to make clearer or faster.
 
 ### Live demos
 
-[ZeraPS](https://joyceradis.github.io/ZeraPS/) · [VoeTupper V3](https://voetupper-serra-v3.joyceradis.chatgpt.site/?demo=1) · [AuditorES](https://joyceradis.github.io/AuditorES/) · [EcoMaster Pro](https://joyceradis.github.io/EcoMasterPro/) · [HMS](https://joyceradis.github.io/HMS/)
+[ZeraPS](https://joyceradis.github.io/ZeraPS/) · [Kit do Perito](https://joyceradis.github.io/pericia-medica/) · [VoeTupper V3](https://voetupper-serra-v3.joyceradis.chatgpt.site/?demo=1) · [AuditorES](https://joyceradis.github.io/AuditorES/) · [EcoMaster Pro](https://joyceradis.github.io/EcoMasterPro/)
 
 ---
 
-## 03 / SYSTEM INVARIANTS
+## 03 / RULES I KEEP EXPLICIT
 
-The same rules keep appearing across my projects:
+These are small rules, but they matter in clinical software:
 
 ```text
 missing data     ≠ negative finding
@@ -67,13 +63,13 @@ new information  ≠ old state rewritten
 automation       ≠ authority
 ```
 
-That is the kind of engineering problem I care about: not simply making software faster, but making the representation of reality **less lossy**.
+I care about speed, but not at the cost of turning uncertainty into a false fact.
 
 ---
 
-## 04 / TECH I CAN POINT TO
+## 04 / STACK
 
-Selected technologies and engineering patterns used across public repositories.
+Technologies used in the projects above.
 
 ```text
 LANGUAGES        JavaScript · TypeScript · HTML · CSS
@@ -84,7 +80,6 @@ VISUALIZATION    Chart.js
 ENGINEERING      domain modeling · state/workflow design · authorization · safety-by-design
 ```
 
-AI-assisted development is part of my workflow for prototyping and iteration; **domain rules, product decisions, safety constraints and acceptance criteria remain explicit and reviewable**.
 
 ---
 
@@ -99,9 +94,9 @@ AI-assisted development is part of my workflow for prototyping and iteration; **
 
 ---
 
-## 06 / WHAT I AM BUILDING TOWARD
+## 06 / CURRENT INTERESTS
 
-I am interested in systems where **medicine and software have to negotiate with the same reality**:
+I am currently interested in:
 
 - clinical workflow and documentation;
 - healthtech product development;
@@ -110,15 +105,13 @@ I am interested in systems where **medicine and software have to negotiate with 
 - healthcare operations and decision support;
 - tools that return professional attention to the work that actually requires judgment.
 
-I do not want software to imitate expertise.
-
-I want it to **carry the parts of the workflow that expertise should not have to waste itself on**.
+I like software that removes repetitive work without pretending to replace professional judgment.
 
 ---
 
 ## 07 / CONTACT
 
-I am interested in conversations around **digital health, clinical AI, healthcare operations, medico-legal technology and physician-led product development**.
+I am interested in conversations around **digital health, clinical software, healthcare operations, medico-legal technology and physician-led product development**.
 
 **LinkedIn:** [linkedin.com/in/drajoyceradis](https://br.linkedin.com/in/drajoyceradis)  
 **Website:** [drajoyceradis.com](https://drajoyceradis.com)  
