@@ -134,3 +134,5 @@ I want it to **carry the parts of the workflow that expertise should not have to
 **Email:** [contato@drajoyceradis.com](mailto:contato@drajoyceradis.com)
 
 <sub>Public repositories are portfolio, evaluation and demonstration projects. Project-specific licensing, privacy and security terms apply.</sub>
+
+<!-- profile-readme: active -->
