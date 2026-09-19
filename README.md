@@ -21,7 +21,7 @@
 
 ## 01 / WHOAMI
 
-I am a Brazilian physician (CRM-ES 21188) working in **emergency care** and **court-appointed medical expertise**.
+I am a Brazilian physician (CRM-ES 21188) working in **emergency care** and as a **court-appointed medical expert**.
 
 I build software around problems I have actually met in clinical and medico-legal work.
 
@@ -36,11 +36,11 @@ That usually means starting with the workflow itself: what happened, what is kno
 | Project | Why I built it | What is in the repo |
 | --- | --- | --- |
 | **[ZeraPS](https://github.com/joyceradis/ZeraPS)** | Emergency documentation for a high-volume PS without losing chronology or inventing findings. | JavaScript · PWA · temporal states · automated tests · CI |
+| **[Kit do Perito](https://github.com/joyceradis/pericia-medica)** | Bring calculations and references I already used in medical expertise into one practical web tool. | JavaScript · Balthazard · AIPE/Brasil · automated tests · GitHub Actions |
 | **[VoeTupper](https://github.com/joyceradis/VoeTupper)** | Replace part of a distributed sales operation built around spreadsheets with a usable system. | Next.js · React · TypeScript · Supabase · Zod · Vitest |
 | **[AuditorES](https://github.com/joyceradis/AuditorES)** | Organize healthcare audit data and surface what deserves human review. | JavaScript · Chart.js · structured data · decision-support UI |
 | **[EcoMaster Pro](https://github.com/joyceradis/EcoMasterPro)** | Turn echocardiography references into a faster study and consultation interface. | JavaScript · structured clinical references · clinical UX |
 | **[Joyce · Estudos](https://github.com/joyceradis/Estudos-Dra-Joyce-Radis)** | Track residency-exam errors and review what actually needs to be studied again. | JavaScript · JSON · analytics · rule engine · Node.js tests |
-| **[Kit do Perito](https://github.com/joyceradis/pericia-medica)** | Bring calculations and references I already used in medical expertise into one practical web tool. | JavaScript · Balthazard · AIPE/Brasil · automated tests · GitHub Actions |
 
 The projects are different, but they all started with a workflow I wanted to make clearer or faster.
 
