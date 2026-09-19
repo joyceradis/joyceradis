@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Joyce Radis — Medicine × Software × AI</title>
+<desc id="desc">Profile header with an animated electrocardiogram trace and system-status typography.</desc>
+<defs>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fb7185"/>
+    <stop offset="1" stop-color="#ff3f67"/>
+  </linearGradient>
+  <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="1200" height="360" rx="28" fill="#0b1020"/>
+<rect x="1" y="1" width="1198" height="358" rx="27" fill="none" stroke="#202a42" stroke-width="2"/>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace">
+  <text x="64" y="66" font-size="15" letter-spacing="4" fill="#7f8daa">JOYCE // MED × CODE</text>
+  <text x="64" y="126" font-size="46" font-weight="700" letter-spacing="-1" fill="#f8fafc">JOYCE RADIS, MD</text>
+  <text x="64" y="160" font-size="18" letter-spacing="2.2" fill="#a8b4ce">MEDICINE × SOFTWARE × AI</text>
+  <text x="64" y="208" font-size="16" fill="#cbd5e1">domain knowledge → working systems</text>
+
+  <g font-size="13" letter-spacing="1.2">
+    <text x="64" y="306" fill="#7f8daa">CLINICAL DOMAIN</text>
+    <text x="212" y="306" fill="#fb7185">[ACTIVE]</text>
+    <text x="330" y="306" fill="#7f8daa">PRODUCT</text>
+    <text x="402" y="306" fill="#fb7185">[BUILDING]</text>
+    <text x="546" y="306" fill="#7f8daa">SOFTWARE</text>
+    <text x="628" y="306" fill="#fb7185">[ITERATING]</text>
+    <text x="784" y="306" fill="#7f8daa">AI</text>
+    <text x="813" y="306" fill="#fb7185">[AUGMENTED]</text>
+  </g>
+</g>
+
+<path d="M64 252 H330 L350 252 L362 242 L374 252 L392 252 L405 221 L420 286 L438 192 L454 252 L471 252 L486 239 L500 252 H1136"
+      fill="none" stroke="#26324e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M64 252 H330 L350 252 L362 242 L374 252 L392 252 L405 221 L420 286 L438 192 L454 252 L471 252 L486 239 L500 252 H1136"
+      fill="none" stroke="url(#accent)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"
+      stroke-dasharray="1180" stroke-dashoffset="1180" filter="url(#softGlow)">
+  <animate attributeName="stroke-dashoffset" values="1180;0;0" keyTimes="0;0.72;1" dur="4.8s" repeatCount="indefinite"/>
+</path>
+<circle cx="1136" cy="252" r="5" fill="#fb7185">
+  <animate attributeName="opacity" values=".2;1;.2" dur="1.4s" repeatCount="indefinite"/>
+</circle>
+</svg>
