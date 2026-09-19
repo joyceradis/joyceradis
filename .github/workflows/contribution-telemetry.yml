@@ -1,0 +1,35 @@
+name: contribution telemetry
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/contribution-telemetry.yml"
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Generate contribution telemetry
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: joyceradis
+          outputs: |
+            dist/contribution-telemetry.svg?color_snake=%23be123c&color_dots=%23eef2f7,%23fecdd3,%23fda4af,%23e11d48,%239f1239
+            dist/contribution-telemetry-dark.svg?color_snake=%23fb7185&color_dots=%23161b22,%233a2028,%236b2a3c,%23a43a59,%23ff5d7a
+
+      - name: Publish telemetry assets
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
