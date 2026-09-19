@@ -102,7 +102,7 @@ Not a badge wall. These are technologies and engineering patterns used in public
 LANGUAGES        JavaScript · TypeScript · HTML · CSS
 FRONTEND         React · Next.js · responsive web · PWA
 DATA / BACKEND   Supabase · JSON domain models · schema validation with Zod
-QUALITY          Vitest · Node.js test runner · type checking · CI
+QUALITY          Vitest · Node.js test runner · type checking · GitHub Actions CI · CodeQL
 VISUALIZATION    Chart.js
 ENGINEERING      domain modeling · state/workflow design · authorization · safety-by-design
 ```
