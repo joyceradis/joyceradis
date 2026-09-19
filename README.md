@@ -1,12 +1,12 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/joyceradis/joyceradis/main/profile-assets/joyce-header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/joyceradis/joyceradis/main/profile-assets/joyce-header-light.svg">
-  <img alt="Joyce Radis — Medicine × Software × AI" src="https://raw.githubusercontent.com/joyceradis/joyceradis/main/profile-assets/joyce-header-light.svg" width="100%">
+  <img alt="Dra. Joyce Radis — Medicine × Software × AI" src="https://raw.githubusercontent.com/joyceradis/joyceradis/main/profile-assets/joyce-header-light.svg" width="100%">
 </picture>
 
 <p align="center">
-  <strong>Physician · Emergency & Acute Care · Court-Appointed Medical Expert · Digital Health & AI Product Builder</strong><br>
-  Clinical Systems · HealthTech · AI-assisted Workflows · Medico-Legal Technology
+  <strong>Brazilian Physician · CRM-ES 21188 · Emergency & Acute Care · Court-Appointed Medical Expert</strong><br>
+  Building clinical, operational and medico-legal systems with software and AI.
 </p>
 
 <p align="center">
@@ -87,6 +87,10 @@ That is the kind of engineering problem I care about: not simply making software
 **AuditorES → VoeTupper**
 
 The domains change. The pattern does not: **understand the work deeply enough to encode it without flattening it.**
+
+### Selected live demos
+
+[ZeraPS](https://joyceradis.github.io/ZeraPS/) · [VoeTupper V3](https://voetupper-serra-v3.joyceradis.chatgpt.site/?demo=1) · [AuditorES](https://joyceradis.github.io/AuditorES/) · [EcoMaster Pro](https://joyceradis.github.io/EcoMasterPro/) · [HMS](https://joyceradis.github.io/HMS/)
 
 ---
 
