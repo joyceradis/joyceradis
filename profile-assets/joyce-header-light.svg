@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-<title id="title">Dra. Joyce Radis — Medicine × Software × AI</title>
+<title id="title">Dra. Joyce Radis — Medicine × Software</title>
 <desc id="desc">Profile header with a stylized narrow-QRS sinus-rhythm trace and system-status typography.</desc>
 <defs>
   <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
@@ -16,8 +16,8 @@
 <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace">
   <text x="64" y="66" font-size="15" letter-spacing="4" fill="#64748b">JOYCE // MED × CODE</text>
   <text x="64" y="126" font-size="46" font-weight="700" letter-spacing="-1" fill="#0f172a">DRA. JOYCE RADIS</text>
-  <text x="64" y="160" font-size="18" letter-spacing="2.2" fill="#475569">MEDICINE × SOFTWARE × AI</text>
-  <text x="64" y="208" font-size="16" fill="#334155">domain knowledge → working systems</text>
+  <text x="64" y="160" font-size="18" letter-spacing="2.2" fill="#475569">MEDICINE × SOFTWARE</text>
+  <text x="64" y="208" font-size="16" fill="#334155">real workflow → working software</text>
 
   <g font-size="13" letter-spacing="1.2">
     <text x="64" y="306" fill="#64748b">CLINICAL DOMAIN</text>
@@ -26,8 +26,7 @@
     <text x="402" y="306" fill="#9f1239">[BUILDING]</text>
     <text x="546" y="306" fill="#64748b">SOFTWARE</text>
     <text x="628" y="306" fill="#9f1239">[ITERATING]</text>
-    <text x="784" y="306" fill="#64748b">AI</text>
-    <text x="813" y="306" fill="#9f1239">[AUGMENTED]</text>
+    <text x="784" y="306" fill="#64748b">PROJECTS</text>\n    <text x="855" y="306" fill="#9f1239">[LIVE]</text>
   </g>
 </g>
 
