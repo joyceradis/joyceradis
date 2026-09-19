@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
 <title id="title">Joyce Radis — Medicine × Software × AI</title>
-<desc id="desc">Profile header with an animated electrocardiogram trace and system-status typography.</desc>
+<desc id="desc">Profile header with a stylized narrow-QRS sinus-rhythm trace and system-status typography.</desc>
 <defs>
   <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0" stop-color="#9f1239"/>
@@ -15,7 +15,7 @@
 <rect x="1" y="1" width="1198" height="358" rx="27" fill="none" stroke="#e2e8f0" stroke-width="2"/>
 <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace">
   <text x="64" y="66" font-size="15" letter-spacing="4" fill="#64748b">JOYCE // MED × CODE</text>
-  <text x="64" y="126" font-size="46" font-weight="700" letter-spacing="-1" fill="#0f172a">JOYCE RADIS, MD</text>
+  <text x="64" y="126" font-size="46" font-weight="700" letter-spacing="-1" fill="#0f172a">DRA. JOYCE RADIS</text>
   <text x="64" y="160" font-size="18" letter-spacing="2.2" fill="#475569">MEDICINE × SOFTWARE × AI</text>
   <text x="64" y="208" font-size="16" fill="#334155">domain knowledge → working systems</text>
 
@@ -31,9 +31,9 @@
   </g>
 </g>
 
-<path d="M64 252 H330 L350 252 L362 246 L374 252 L398 252 L406 236 L412 278 L418 206 L426 252 L452 252 L466 244 L480 252 H1136"
+<path d="M64 252 H140 C150 252 154 244 162 244 C170 244 174 252 184 252 H214 L220 257 L226 210 L232 276 L238 244 L246 252 H278 C290 252 296 238 310 238 C324 238 330 252 344 252 H402 C412 252 416 244 424 244 C432 244 436 252 446 252 H476 L482 257 L488 210 L494 276 L500 244 L508 252 H540 C552 252 558 238 572 238 C586 238 592 252 606 252 H664 C674 252 678 244 686 244 C694 244 698 252 708 252 H738 L744 257 L750 210 L756 276 L762 244 L770 252 H802 C814 252 820 238 834 238 C848 238 854 252 868 252 H1136"
       fill="none" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M64 252 H330 L350 252 L362 246 L374 252 L398 252 L406 236 L412 278 L418 206 L426 252 L452 252 L466 244 L480 252 H1136"
+<path d="M64 252 H140 C150 252 154 244 162 244 C170 244 174 252 184 252 H214 L220 257 L226 210 L232 276 L238 244 L246 252 H278 C290 252 296 238 310 238 C324 238 330 252 344 252 H402 C412 252 416 244 424 244 C432 244 436 252 446 252 H476 L482 257 L488 210 L494 276 L500 244 L508 252 H540 C552 252 558 238 572 238 C586 238 592 252 606 252 H664 C674 252 678 244 686 244 C694 244 698 252 708 252 H738 L744 257 L750 210 L756 276 L762 244 L770 252 H802 C814 252 820 238 834 238 C848 238 854 252 868 252 H1136"
       fill="none" stroke="url(#accent)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"
       stroke-dasharray="1180" stroke-dashoffset="1180" filter="url(#softGlow)">
   <animate attributeName="stroke-dashoffset" values="1180;0;0" keyTimes="0;0.72;1" dur="4.8s" repeatCount="indefinite"/>
