@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Brazilian Physician · CRM-ES 21188 · Emergency & Acute Care · Court-Appointed Medical Expert</strong><br>
-  Building clinical, operational and medico-legal systems with software and AI.
+  Building clinical, operational and medico-legal systems from real-world workflows.
 </p>
 
 <p align="center">
@@ -84,7 +84,7 @@ VISUALIZATION    Chart.js
 ENGINEERING      domain modeling · state/workflow design · authorization · safety-by-design
 ```
 
-AI is part of my engineering workflow. I use it to accelerate prototyping, implementation and iteration; **domain rules, product decisions, safety constraints and acceptance criteria remain explicit and reviewable**.
+AI-assisted development is part of my workflow for prototyping and iteration; **domain rules, product decisions, safety constraints and acceptance criteria remain explicit and reviewable**.
 
 ---
 
@@ -101,11 +101,11 @@ AI is part of my engineering workflow. I use it to accelerate prototyping, imple
 
 ## 06 / WHAT I AM BUILDING TOWARD
 
-I am interested in systems where **medicine, software and AI have to negotiate with the same reality**:
+I am interested in systems where **medicine and software have to negotiate with the same reality**:
 
 - clinical workflow and documentation;
 - healthtech product development;
-- AI-assisted professional systems;
+- professional workflow automation;
 - medico-legal technology;
 - healthcare operations and decision support;
 - tools that return professional attention to the work that actually requires judgment.
