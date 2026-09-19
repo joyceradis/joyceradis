@@ -5,8 +5,16 @@
 </picture>
 
 <p align="center">
-  <strong>Physician · Court-Appointed Medical Expert · Product Builder</strong><br>
-  Emergency & Acute Care · Clinical Systems · Digital Health · AI-assisted Workflows
+  <strong>Physician · Emergency & Acute Care · Court-Appointed Medical Expert · Digital Health & AI Product Builder</strong><br>
+  Clinical Systems · HealthTech · AI-assisted Workflows · Medico-Legal Technology
+</p>
+
+<p align="center">
+  <a href="https://br.linkedin.com/in/drajoyceradis">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="https://drajoyceradis.com">Website</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:contato@drajoyceradis.com">Email</a>
 </p>
 
 ---
@@ -130,6 +138,9 @@ I want it to **carry the parts of the workflow that expertise should not have to
 
 ## 07 / CONTACT
 
+I am interested in conversations around **digital health, clinical AI, healthcare operations, medico-legal technology and physician-led product development**.
+
+**LinkedIn:** [linkedin.com/in/drajoyceradis](https://br.linkedin.com/in/drajoyceradis)  
 **Website:** [drajoyceradis.com](https://drajoyceradis.com)  
 **Email:** [contato@drajoyceradis.com](mailto:contato@drajoyceradis.com)
 
