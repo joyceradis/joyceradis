@@ -31,25 +31,30 @@ I see the problem as a physician first. Then I model the domain until it can bec
 
 I am particularly interested in the parts of healthcare where generic automation fails: **temporality, uncertainty, evidence, traceability, permissions, clinical context and human review**.
 
-```text
-REAL PROBLEM
-    ↓
-DOMAIN MODEL
-    ↓
-WORKFLOW / STATE
-    ↓
-DATA + RULES
-    ↓
-INTERFACE
-    ↓
-VALIDATION
-```
-
-**I build from the domain outward.**
+**I build from the domain outward:** real problem → domain model → workflow/state → data/rules → interface → validation.
 
 ---
 
-## 02 / SYSTEM INVARIANTS
+## 02 / SELECTED SYSTEMS
+
+| System | The question behind it | Technical evidence |
+| --- | --- | --- |
+| **[ZeraPS](https://github.com/joyceradis/ZeraPS)** | Can emergency documentation move at clinical speed without erasing temporality or manufacturing certainty? | JavaScript · PWA · temporal state model · automated tests · CI · safety invariants |
+| **[VoeTupper](https://github.com/joyceradis/VoeTupper)** | Can a distributed operation be modeled around hierarchy, permissions, goals and real workflows instead of spreadsheets? | Next.js · React · TypeScript · Supabase · Zod · Vitest · authorization model |
+| **[AuditorES](https://github.com/joyceradis/AuditorES)** | Can operational risk be surfaced without turning an automated alert into a technical conclusion? | JavaScript · Chart.js · structured data · decision-support UI · human-in-the-loop |
+| **[EcoMaster Pro](https://github.com/joyceradis/EcoMasterPro)** | Can medical knowledge be structured for rapid use without pretending that a threshold is a diagnosis? | JavaScript · clinical knowledge modeling · structured references · clinical UX |
+| **[Joyce · Estudos](https://github.com/joyceradis/Estudos-Dra-Joyce-Radis)** | Can exam preparation be driven by error patterns, recurrence and recency instead of a vanity percentage? | JavaScript · JSON data model · analytics · rule engine · Node.js tests |
+| **[HMS](https://github.com/joyceradis/HMS)** | What changes when an emergency interface is designed around physician workflow rather than around forms? | JavaScript · workflow prototyping · clinical UX · product iteration |
+
+The domains change. The pattern does not: **understand the work deeply enough to encode it without flattening it.**
+
+### Live demos
+
+[ZeraPS](https://joyceradis.github.io/ZeraPS/) · [VoeTupper V3](https://voetupper-serra-v3.joyceradis.chatgpt.site/?demo=1) · [AuditorES](https://joyceradis.github.io/AuditorES/) · [EcoMaster Pro](https://joyceradis.github.io/EcoMasterPro/) · [HMS](https://joyceradis.github.io/HMS/)
+
+---
+
+## 03 / SYSTEM INVARIANTS
 
 The same rules keep appearing across my projects:
 
@@ -63,34 +68,6 @@ automation       ≠ authority
 ```
 
 That is the kind of engineering problem I care about: not simply making software faster, but making the representation of reality **less lossy**.
-
----
-
-## 03 / SYSTEM MAP
-
-| System | The question behind it | Technical evidence |
-| --- | --- | --- |
-| **[ZeraPS](https://github.com/joyceradis/ZeraPS)** | Can emergency documentation move at clinical speed without erasing temporality or manufacturing certainty? | JavaScript · PWA · temporal state model · automated tests · CI · safety invariants |
-| **[VoeTupper](https://github.com/joyceradis/VoeTupper)** | Can a distributed operation be modeled around hierarchy, permissions, goals and real workflows instead of spreadsheets? | Next.js · React · TypeScript · Supabase · Zod · Vitest · authorization model |
-| **[AuditorES](https://github.com/joyceradis/AuditorES)** | Can operational risk be surfaced without turning an automated alert into a technical conclusion? | JavaScript · Chart.js · structured data · decision-support UI · human-in-the-loop |
-| **[EcoMaster Pro](https://github.com/joyceradis/EcoMasterPro)** | Can medical knowledge be structured for rapid use without pretending that a threshold is a diagnosis? | JavaScript · clinical knowledge modeling · structured references · clinical UX |
-| **[Joyce · Estudos](https://github.com/joyceradis/Estudos-Dra-Joyce-Radis)** | Can exam preparation be driven by error patterns, recurrence and recency instead of a vanity percentage? | JavaScript · JSON data model · analytics · rule engine · Node.js tests |
-| **[HMS](https://github.com/joyceradis/HMS)** | What changes when an emergency interface is designed around physician workflow rather than around forms? | JavaScript · workflow prototyping · clinical UX · product iteration |
-
-### Care delivery
-**ZeraPS → HMS**
-
-### Clinical knowledge & learning
-**EcoMaster Pro → Joyce · Estudos**
-
-### Operations & decision systems
-**AuditorES → VoeTupper**
-
-The domains change. The pattern does not: **understand the work deeply enough to encode it without flattening it.**
-
-### Selected live demos
-
-[ZeraPS](https://joyceradis.github.io/ZeraPS/) · [VoeTupper V3](https://voetupper-serra-v3.joyceradis.chatgpt.site/?demo=1) · [AuditorES](https://joyceradis.github.io/AuditorES/) · [EcoMaster Pro](https://joyceradis.github.io/EcoMasterPro/) · [HMS](https://joyceradis.github.io/HMS/)
 
 ---
 
