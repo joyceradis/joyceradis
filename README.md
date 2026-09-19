@@ -96,7 +96,7 @@ The domains change. The pattern does not: **understand the work deeply enough to
 
 ## 04 / TECH I CAN POINT TO
 
-Not a badge wall. These are technologies and engineering patterns used in public repositories.
+Selected technologies and engineering patterns used across public repositories.
 
 ```text
 LANGUAGES        JavaScript · TypeScript · HTML · CSS
@@ -119,7 +119,6 @@ AI is part of my engineering workflow. I use it to accelerate prototyping, imple
   <img alt="Joyce Radis GitHub contribution telemetry" src="https://raw.githubusercontent.com/joyceradis/joyceradis/output/contribution-telemetry.svg" width="100%">
 </picture>
 
-<sub>Generated automatically from the GitHub contribution graph. The visual language is intentionally derived from cardiac monitoring rather than the default contribution-snake aesthetic.</sub>
 
 ---
 
