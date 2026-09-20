@@ -35,6 +35,7 @@ That usually means starting with the workflow itself: what happened, what is kno
 
 | Project | Why I built it | What is in the repo |
 | --- | --- | --- |
+| **[Quem Votar?](https://github.com/joyceradis/Quem-Votar)** | Build a public civic-data product for factual candidate research, with traceable sources and explicit review gates. | Python · JavaScript · data pipeline · GitHub Actions · auditability · governance |
 | **[ZeraPS](https://github.com/joyceradis/ZeraPS)** | Emergency documentation for a high-volume PS without losing chronology or inventing findings. | JavaScript · PWA · temporal states · automated tests · CI |
 | **[Kit do Perito](https://github.com/joyceradis/pericia-medica)** | Bring calculations and references I already used in medical expertise into one practical web tool. | JavaScript · Balthazard · AIPE/Brasil · automated tests · GitHub Actions |
 | **[VoeTupper](https://github.com/joyceradis/VoeTupper)** | Replace part of a distributed sales operation built around spreadsheets with a usable system. | Next.js · React · TypeScript · Supabase · Zod · Vitest |
@@ -46,7 +47,7 @@ The projects are different, but they all started with a workflow I wanted to mak
 
 ### Live demos
 
-[ZeraPS](https://joyceradis.github.io/ZeraPS/) · [Kit do Perito](https://joyceradis.github.io/pericia-medica/) · [VoeTupper V3](https://voetupper-serra-v3.joyceradis.chatgpt.site/?demo=1) · [AuditorES](https://joyceradis.github.io/AuditorES/) · [EcoMaster Pro](https://joyceradis.github.io/EcoMasterPro/)
+[Quem Votar?](https://joyceradis.github.io/Quem-Votar/) · [ZeraPS](https://joyceradis.github.io/ZeraPS/) · [Kit do Perito](https://joyceradis.github.io/pericia-medica/) · [VoeTupper V3](https://voetupper-serra-v3.joyceradis.chatgpt.site/?demo=1) · [AuditorES](https://joyceradis.github.io/AuditorES/) · [EcoMaster Pro](https://joyceradis.github.io/EcoMasterPro/)
 
 ---
 
@@ -72,9 +73,9 @@ I care about speed, but not at the cost of turning uncertainty into a false fact
 Technologies used in the projects above.
 
 ```text
-LANGUAGES        JavaScript · TypeScript · HTML · CSS
+LANGUAGES        Python · JavaScript · TypeScript · HTML · CSS
 FRONTEND         React · Next.js · responsive web · PWA
-DATA / BACKEND   Supabase · JSON domain models · schema validation with Zod
+DATA / BACKEND   data pipelines · Supabase · JSON domain models · schema validation with Zod
 QUALITY          Vitest · Node.js test runner · type checking · GitHub Actions CI · CodeQL
 VISUALIZATION    Chart.js
 ENGINEERING      domain modeling · state/workflow design · authorization · safety-by-design
