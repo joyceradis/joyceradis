@@ -3,6 +3,8 @@
 
 **Physician-led systems · Clinical integrity · Product engineering**
 
+**[Machine-readable project identity](PROJECT_CARD.json)**
+
 This page describes a presentation standard for the public portfolio. Each repository remains the authoritative source for its own code, requirements, evidence, and release status.
 
 ### 01 / Principles
