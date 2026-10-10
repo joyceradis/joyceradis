@@ -58,3 +58,7 @@ This document is a **public editorial standard**, not an operational mandate for
 Topics describe a repository; issue/PR labels describe individual work. `PROJECT_CARD.json` is versioned descriptive metadata and does not configure either.
 
 Reuse `documentation` and `enhancement`; add `security`, `model`, `research`, `tests`, `maintenance` or `integration` only where applicable. One priority (`priority:high`, `priority:normal`, `priority:low`) and one review state (`review:ready`, `review:reconcile`, `review:technical`) suffice. `status:rfc` identifies open research; `status:historical` requires evidence of historical or superseded scope. After merge, the native PR state is authoritative and temporary review labels can be removed.
+
+---
+
+**Document provenance:** drafted in [PR #1](https://github.com/joyceradis/joyceradis/pull/1). This document describes editorial guidance; it does not imply that every repository follows this standard already.
