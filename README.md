@@ -17,6 +17,8 @@
   <a href="mailto:contato@drajoyceradis.com">Email</a>
 </p>
 
+**[PROJECTS](#02--projects)** &nbsp;·&nbsp; **[ENGINEERING](ENGINEERING.md)** &nbsp;·&nbsp; **[STACK](#04--stack)** &nbsp;·&nbsp; **[CONTACT](#07--contact)**
+
 ---
 
 ## 01 / WHOAMI
