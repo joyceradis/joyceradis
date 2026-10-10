@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "joyce.portfolio",
+  "name": "Joyce Radis | GitHub Portfolio",
+  "domain": "public-portfolio",
+  "visibility": "public",
+  "lifecycle": "active",
+  "canonicalFor": [
+    "public-project-navigation",
+    "public-editorial-profile"
+  ],
+  "entrypoints": [
+    {
+      "label": "Profile",
+      "path": "README.md"
+    },
+    {
+      "label": "Editorial standard",
+      "path": "ENGINEERING.md"
+    }
+  ],
+  "derivedProducts": [],
+  "integrationPolicy": "links-to-independent-public-repositories-only",
+  "quality": {
+    "validationCommands": [],
+    "verifiedThisChange": false
+  },
+  "notes": "Public descriptive metadata; excludes private inventories and unpublished work."
+}
