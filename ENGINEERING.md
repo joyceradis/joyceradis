@@ -18,7 +18,7 @@ This page describes a presentation standard for the public portfolio. Each repos
 | Independent ownership | a collection of projects is not one giant repository |
 | Collaboration without competition | compare contributions on their merits; credit work and keep its provenance |
 
-### 02 / The repository label standard
+### 02 / Repository presentation standard
 
 A useful project README should answer six questions in its first screen:
 
@@ -52,3 +52,9 @@ A portfolio page can point to existing evidence, but should not re-implement it.
 ### 06 / Scope
 
 This document is a **public editorial standard**, not an operational mandate for collaborators. It does not expose private project inventories, local filesystem paths, credentials, unpublished interfaces or internal-only governance.
+
+### 07 / GitHub classification
+
+Topics describe a repository; issue/PR labels describe individual work. `PROJECT_CARD.json` is versioned descriptive metadata and does not configure either.
+
+Reuse `documentation` and `enhancement`; add `security`, `model`, `research`, `tests`, `maintenance` or `integration` only where applicable. One priority (`priority:high`, `priority:normal`, `priority:low`) and one review state (`review:ready`, `review:reconcile`, `review:technical`) suffice. `status:rfc` identifies open research; `status:historical` requires evidence of historical or superseded scope. After merge, the native PR state is authoritative and temporary review labels can be removed.

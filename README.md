@@ -43,7 +43,7 @@ That usually means starting with the workflow itself: what happened, what is kno
 | **[VoeTupper](https://github.com/joyceradis/VoeTupper)** | Replace part of a distributed sales operation built around spreadsheets with a usable system. | Next.js · React · TypeScript · Supabase · Zod · Vitest |
 | **[AuditorES](https://github.com/joyceradis/AuditorES)** | Organize healthcare audit data and surface what deserves human review. | JavaScript · Chart.js · structured data · decision-support UI |
 | **[EcoMaster Pro](https://github.com/joyceradis/EcoMasterPro)** | Turn echocardiography references into a faster study and consultation interface. | JavaScript · structured clinical references · clinical UX |
-| **[Joyce · Estudos](https://github.com/joyceradis/Estudos-Dra-Joyce-Radis)** | Track residency-exam errors and review what actually needs to be studied again. | JavaScript · JSON · analytics · rule engine · Node.js tests |
+| **[Joyce · Estudos](https://github.com/joyceradis/Estudos-Dra-Joyce-Radis)** | Track residency-exam errors and review what actually needs to be studied again. | Earlier study implementation · JavaScript · analytics · review priorities · Node.js tests |
 
 The projects are different, but they all started with a workflow I wanted to make clearer or faster.
 
