@@ -35,21 +35,27 @@ That usually means starting with the workflow itself: what happened, what is kno
 
 ## 02 / PROJECTS
 
-| Project | Why I built it | What is in the repo |
+**Each repository is a separate product or experiment.** This is the public portfolio, not the internal JOYCE_OS workspace or a list of Radis modules. Follow a project's README for its source, implementation, tests and current maturity.
+
+| Product | Category | Purpose / current scope |
 | --- | --- | --- |
-| **[Quem Votar?](https://github.com/joyceradis/Quem-Votar)** | Build a public civic-data product for factual candidate research, with traceable sources and explicit review gates. | Python · JavaScript · data pipeline · GitHub Actions · auditability · governance |
-| **[ZeraPS](https://github.com/joyceradis/ZeraPS)** | Emergency documentation for a high-volume PS without losing chronology or inventing findings. | JavaScript · PWA · temporal states · automated tests · CI |
-| **[Kit do Perito](https://github.com/joyceradis/pericia-medica)** | Bring calculations and references I already used in medical expertise into one practical web tool. | JavaScript · Balthazard · AIPE/Brasil · automated tests · GitHub Actions |
-| **[VoeTupper](https://github.com/joyceradis/VoeTupper)** | Replace part of a distributed sales operation built around spreadsheets with a usable system. | Next.js · React · TypeScript · Supabase · Zod · Vitest |
-| **[AuditorES](https://github.com/joyceradis/AuditorES)** | Organize healthcare audit data and surface what deserves human review. | JavaScript · Chart.js · structured data · decision-support UI |
-| **[EcoMaster Pro](https://github.com/joyceradis/EcoMasterPro)** | Turn echocardiography references into a faster study and consultation interface. | JavaScript · structured clinical references · clinical UX |
-| **[Joyce · Estudos](https://github.com/joyceradis/Estudos-Dra-Joyce-Radis)** | Track residency-exam errors and review what actually needs to be studied again. | Earlier study implementation · JavaScript · analytics · review priorities · Node.js tests |
+| **[Quem Votar?](https://github.com/joyceradis/Quem-Votar)** | Civic technology | Evidence-linked public electoral information; independent of health and personal tools. |
+| **[ZeraPS](https://github.com/joyceradis/ZeraPS)** | Emergency medicine | Clinical documentation and temporal workflow; development/validation, not certified bedside software. |
+| **[MedPer](https://github.com/joyceradis/MedPer)** | Medico-legal workflow | Structured forensic assessment, references and document preparation; distinct from the calculator toolkit. |
+| **[Kit do Perito](https://github.com/joyceradis/pericia-medica)** | Medico-legal tools | Standalone Balthazard and AIPE/Brasil calculators with methodological notes. |
+| **[EcoMaster Pro](https://github.com/joyceradis/EcoMasterPro)** | Educational product · commercial concept | Echocardiography education and structured references; subscription model is a *future possibility*, not a live service. |
+| **[Joyce · Estudos](https://github.com/joyceradis/Estudos-Dra-Joyce-Radis)** | Medical education · earlier implementation | Residency performance analytics, error tracking and adaptive review. |
+| **[AuditorES](https://github.com/joyceradis/AuditorES)** | Healthcare operations | Audit-oriented decision support and traceable operational information. |
+| **[VoeTupper](https://github.com/joyceradis/VoeTupper)** | Independent business software | CRM and workflow tools for a direct-sales team; not part of the clinical or academic products. |
+| **[JR · Professional website](https://github.com/joyceradis/JR)** | Professional presence | Source repository for the public professional website. |
 
-The projects are different, but they all started with a workflow I wanted to make clearer or faster.
+**Find existing code:** start with the product's README. Its implementation, documentation, tests and PR history belong to that repository. A portfolio entry does **not** imply interoperability or production readiness.
 
-### Live demos
+### Public demonstrations
 
-[Quem Votar?](https://joyceradis.github.io/Quem-Votar/) · [ZeraPS](https://joyceradis.github.io/ZeraPS/) · [Kit do Perito](https://joyceradis.github.io/pericia-medica/) · [VoeTupper V3](https://voetupper-serra-v3.joyceradis.chatgpt.site/?demo=1) · [AuditorES](https://joyceradis.github.io/AuditorES/) · [EcoMaster Pro](https://joyceradis.github.io/EcoMasterPro/)
+[Quem Votar?](https://joyceradis.github.io/Quem-Votar/) · [ZeraPS](https://joyceradis.github.io/ZeraPS/) · [MedPer](https://joyceradis.github.io/MedPer/) · [Kit do Perito](https://joyceradis.github.io/pericia-medica/) · [VoeTupper](https://joyceradis.github.io/VoeTupper/) · [AuditorES](https://joyceradis.github.io/AuditorES/) · [EcoMaster Pro](https://joyceradis.github.io/EcoMasterPro/)
+
+<sub>Links lead to separately maintained demonstrations. Their presence is not an assertion of clinical validation, subscription availability or live third-party integrations.</sub>
 
 ---
 
