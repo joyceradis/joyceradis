@@ -35,7 +35,7 @@ That usually means starting with the workflow itself: what happened, what is kno
 
 ## 02 / PROJECTS
 
-**Each repository is a separate product or experiment.** This is the public portfolio, not the internal JOYCE_OS workspace or a list of Radis modules. Follow a project's README for its source, implementation, tests and current maturity.
+**Each repository is a separate product or experiment.** This is a public portfolio, not an index of private workspaces or internal engineering materials. Follow each project's README for its source, implementation, tests and maturity.
 
 | Product | Category | Purpose / current scope |
 | --- | --- | --- |
