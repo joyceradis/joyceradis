@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/joyceradis/joyceradis/chatgpt/profile-editorial-20261018/profile-assets/joyce-header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/joyceradis/joyceradis/chatgpt/profile-editorial-20261018/profile-assets/joyce-header-light.svg">
-  <img src="https://raw.githubusercontent.com/joyceradis/joyceradis/chatgpt/profile-editorial-20261018/profile-assets/joyce-header-light.svg" width="100%" alt="Joyce Radis. Medicine and software, shaped by clinical practice.">
+  <source media="(prefers-color-scheme: dark)" srcset="profile-assets/joyce-header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="profile-assets/joyce-header-light.svg">
+  <img src="profile-assets/joyce-header-light.svg" width="100%" alt="Joyce Radis. Medicine and software, shaped by clinical practice.">
 </picture>
 
 <p align="center">
