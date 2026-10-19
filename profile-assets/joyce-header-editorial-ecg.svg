@@ -2,8 +2,8 @@
 <title id="title">Dra. Joyce Radis — Medicine × Software</title>
 <desc id="desc">Editorial medical-tech header with animated stylized sinus-rhythm ECG and narrow QRS complexes.</desc>
 <style>
-:root{--bg:#f7f8fa;--panel:#fff;--text:#101827;--muted:#5f6b7a;--line:#d9e0e7;--grid:#e9edf2;--accent:#b21f47;--accent2:#e03a64;--trace:#c6ccd5}
-@media (prefers-color-scheme:dark){:root{--bg:#0c121c;--panel:#111925;--text:#f7f9fc;--muted:#98a6b8;--line:#263244;--grid:#1a2432;--accent:#ff6b8d;--accent2:#ff3f6c;--trace:#334157}}
+:root{--bg:#f8fafc;--panel:#f8fafc;--text:#0f172a;--muted:#475569;--line:#e2e8f0;--grid:#edf2f7;--accent:#9f1239;--accent2:#e11d48;--trace:#cbd5e1}
+@media (prefers-color-scheme:dark){:root{--bg:#0b1020;--panel:#0b1020;--text:#f8fafc;--muted:#a8b4ce;--line:#202a42;--grid:#141c2d;--accent:#fb7185;--accent2:#ff3f67;--trace:#26324e}}
 @media (prefers-reduced-motion:reduce){.trace-live{stroke-dashoffset:0!important}animate{display:none!important}}
 </style>
 <defs>
@@ -21,8 +21,9 @@
 </g>
 <g transform="translate(665,56)">
 <rect width="465" height="244" rx="20" fill="var(--panel)" stroke="var(--line)" stroke-width="1.4"/><rect x="16" y="16" width="433" height="166" rx="13" fill="url(#grid)"/>
-<text x="28" y="213" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" letter-spacing="1.15" fill="var(--muted)">SINUS RHYTHM · NARROW QRS · LIVE TRACE</text>
+<text x="28" y="213" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" letter-spacing="1.15" fill="var(--muted)">SINUS RHYTHM · NARROW QRS · CONTINUOUS TRACE</text>
 <path d="M28 105 H55 C61 105 64 98 69 98 C74 98 77 105 83 105 H103 L109 108 L114 74 L119 130 L124 96 L129 105 H155 C165 105 170 88 184 88 C198 88 203 105 215 105 H247 C253 105 256 98 261 98 C266 98 269 105 275 105 H295 L301 108 L306 74 L311 130 L316 96 L321 105 H347 C357 105 362 88 376 88 C390 88 395 105 407 105 H433" fill="none" stroke="var(--trace)" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
-<path class="trace-live" d="M28 105 H55 C61 105 64 98 69 98 C74 98 77 105 83 105 H103 L109 108 L114 74 L119 130 L124 96 L129 105 H155 C165 105 170 88 184 88 C198 88 203 105 215 105 H247 C253 105 256 98 261 98 C266 98 269 105 275 105 H295 L301 108 L306 74 L311 130 L316 96 L321 105 H347 C357 105 362 88 376 88 C390 88 395 105 407 105 H433" fill="none" stroke="url(#accent)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="620" stroke-dashoffset="620" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="620;0;0" keyTimes="0;0.78;1" dur="4.4s" repeatCount="indefinite"/></path>
+<path class="trace-live" d="M28 105 H55 C61 105 64 98 69 98 C74 98 77 105 83 105 H103 L109 108 L114 74 L119 130 L124 96 L129 105 H155 C165 105 170 88 184 88 C198 88 203 105 215 105 H247 C253 105 256 98 261 98 C266 98 269 105 275 105 H295 L301 108 L306 74 L311 130 L316 96 L321 105 H347 C357 105 362 88 376 88 C390 88 395 105 407 105 H433" fill="none" stroke="url(#accent)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" pathLength="1000" stroke-dasharray="165 835" stroke-dashoffset="0" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="3.2s" calcMode="linear" repeatCount="indefinite"/></path>
 <circle cx="433" cy="105" r="4.5" fill="var(--accent2)"><animate attributeName="opacity" values=".25;1;.25" dur="1.2s" repeatCount="indefinite"/></circle>
 </g></svg>
