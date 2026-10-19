@@ -17,82 +17,60 @@
   <a href="mailto:contato@drajoyceradis.com">Email</a>
 </p>
 
-**[PROJECTS](#02--projects)** &nbsp;·&nbsp; **[ENGINEERING](ENGINEERING.md)** &nbsp;·&nbsp; **[STACK](#04--stack)** &nbsp;·&nbsp; **[CONTACT](#07--contact)**
+**[Background](#background)** · **[Projects](#selected-projects)** · **[Engineering notes](ENGINEERING.md)** · **[Contact](#contact)**
 
 ---
 
-## 01 / WHOAMI
+## Background
 
-I am a Brazilian physician (CRM-ES 21188) working in **emergency care** and as a **court-appointed medical expert**.
+I am a physician in Brazil, working in emergency care and as a court-appointed medical expert.
 
-I build software around problems I have actually met in clinical and medico-legal work.
+Most of the software I build starts with a problem from practice: repeating the same clinical information in different places, keeping track of what was known at each stage of an encounter, or documenting how an expert conclusion was reached.
 
-That usually means starting with the workflow itself: what happened, what is known, what is still uncertain, what needs a source, and what the software must never invent.
+I work on the requirements, interfaces, domain rules and testing. The projects are independent and at different stages of development. A public demo is not the same as a product ready for professional use.
 
-**Real workflow → clear rules → usable software.**
+## Selected projects
 
----
+### Software products in development
 
-## 02 / PROJECTS
+**[MedPer](https://github.com/joyceradis/MedPer)**  
+A structured workspace for medical expert assessments, from defining the questions to organizing evidence, methodology and the final report. I am developing it as a standalone product, with licensed access or subscriptions as a possible business model. The current public version is a prototype and must not be used for real case files.
 
-**Each repository is a separate product or experiment.** This is a public portfolio, not an index of private workspaces or internal engineering materials. Follow each project's README for its source, implementation, tests and maturity.
+**[MOOV](https://github.com/joyceradis/MOOV)**  
+Ambulance fleet operations: transport requests, timestamps, vehicle use, handoffs and audit records. The demo runs on fictional data; a server-based implementation is also under development. My aim is to offer it to organizations through a commercial licence or subscription after operational and security validation. It is not a dispatch or GPS-tracking system.
 
-| Product | Category | Purpose / current scope |
-| --- | --- | --- |
-| **[Quem Votar?](https://github.com/joyceradis/Quem-Votar)** | Civic technology | Evidence-linked public electoral information; independent of health and personal tools. |
-| **[ZeraPS](https://github.com/joyceradis/ZeraPS)** | Emergency medicine | Clinical documentation and temporal workflow; development/validation, not certified bedside software. |
-| **[MedPer](https://github.com/joyceradis/MedPer)** | Medico-legal workflow | Structured forensic assessment, references and document preparation; distinct from the calculator toolkit. |
-| **[Kit do Perito](https://github.com/joyceradis/pericia-medica)** | Medico-legal tools | Standalone Balthazard and AIPE/Brasil calculators with methodological notes. |
-| **[EcoMaster Pro](https://github.com/joyceradis/EcoMasterPro)** | Educational product · commercial concept | Echocardiography education and structured references; subscription model is a *future possibility*, not a live service. |
-| **[Joyce · Estudos](https://github.com/joyceradis/Estudos-Dra-Joyce-Radis)** | Medical education · earlier implementation | Residency performance analytics, error tracking and adaptive review. |
-| **[AuditorES](https://github.com/joyceradis/AuditorES)** | Healthcare operations | Audit-oriented decision support and traceable operational information. |
-| **[VoeTupper](https://github.com/joyceradis/VoeTupper)** | Independent business software | CRM and workflow tools for a direct-sales team; not part of the clinical or academic products. |
-| **[JR · Professional website](https://github.com/joyceradis/JR)** | Professional presence | Source repository for the public professional website. |
+**[ZeraPS](https://github.com/joyceradis/ZeraPS)**  
+An emergency-department documentation workflow that preserves the sequence of an encounter: initial assessment, pending results, reassessment and final documentation. It is under validation, not a certified clinical system.
 
-**Find existing code:** start with the product's README. Its implementation, documentation, tests and PR history belong to that repository. A portfolio entry does **not** imply interoperability or production readiness.
+**[EcoMaster Pro](https://github.com/joyceradis/EcoMasterPro)**  
+An educational reference for echocardiography measurements, calculations and context. A paid educational version is an idea being evaluated, not a subscription service currently offered.
 
-### Public demonstrations
+### Public projects and focused tools
 
-[Quem Votar?](https://joyceradis.github.io/Quem-Votar/) · [ZeraPS](https://joyceradis.github.io/ZeraPS/) · [MedPer](https://joyceradis.github.io/MedPer/) · [Kit do Perito](https://joyceradis.github.io/pericia-medica/) · [VoeTupper](https://joyceradis.github.io/VoeTupper/) · [AuditorES](https://joyceradis.github.io/AuditorES/) · [EcoMaster Pro](https://joyceradis.github.io/EcoMasterPro/)
+**[Quem Votar?](https://github.com/joyceradis/Quem-Votar)**  
+An independent civic information project for elections in Espírito Santo. Candidate information is tied to sources rather than scores or voting recommendations.
 
-<sub>Links lead to separately maintained demonstrations. Their presence is not an assertion of clinical validation, subscription availability or live third-party integrations.</sub>
+**[Kit do Perito](https://github.com/joyceradis/pericia-medica)**  
+Balthazard and AIPE/Brasil tools, kept separate from MedPer. The calculations, methodological limits and tests are documented in the repository.
 
----
+**[AuditorES](https://github.com/joyceradis/AuditorES)**  
+A demonstration of healthcare contract auditing: indicators, documentary evidence and alerts for human review.
 
-## 03 / RULES I KEEP EXPLICIT
+Other work: [HMS](https://github.com/joyceradis/HMS) (earlier emergency workflow prototype) · [Joyce Estudos](https://github.com/joyceradis/Estudos-Dra-Joyce-Radis) (medical study tools) · [VoeTupper](https://github.com/joyceradis/VoeTupper) (direct-sales workflow) · [Professional website](https://github.com/joyceradis/JR).
 
-These are small rules, but they matter in clinical software:
+Each repository has its own code, development status, documentation and terms of use. These are not modules of one combined platform.
 
-```text
-missing data     ≠ negative finding
-template         ≠ performed examination
-suggestion       ≠ clinical fact
-evidence         ≠ conclusion
-new information  ≠ old state rewritten
-automation       ≠ authority
-```
+## How I approach clinical software
 
-I care about speed, but not at the cost of turning uncertainty into a false fact.
+A blank field is not a negative finding. A template is not a performed examination. A score is not a diagnosis. New results must not silently rewrite the original assessment.
 
----
+These distinctions guide the design and testing of my clinical and medico-legal tools.
 
-## 04 / STACK
+## Technical work
 
-Technologies used in the projects above.
+Python, JavaScript, TypeScript, HTML and CSS; web interfaces and PWAs; data models, testing and GitHub Actions. The [engineering notes](ENGINEERING.md) explain how the repositories are documented; the implementation and test evidence live with each project.
 
-```text
-LANGUAGES        Python · JavaScript · TypeScript · HTML · CSS
-FRONTEND         React · Next.js · responsive web · PWA
-DATA / BACKEND   data pipelines · Supabase · JSON domain models · schema validation with Zod
-QUALITY          Vitest · Node.js test runner · type checking · GitHub Actions CI · CodeQL
-VISUALIZATION    Chart.js
-ENGINEERING      domain modeling · state/workflow design · authorization · safety-by-design
-```
-
-
----
-
-## 05 / CONTRIBUTION TELEMETRY
+## Contribution activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/joyceradis/joyceradis/output/contribution-telemetry-dark.svg">
@@ -103,29 +81,10 @@ ENGINEERING      domain modeling · state/workflow design · authorization · sa
 
 ---
 
-## 06 / CURRENT INTERESTS
+## Contact
 
-I am currently interested in:
+I am open to discussing software development, clinical workflows, medical expertise and operational tools with people working on concrete problems.
 
-- clinical workflow and documentation;
-- healthtech product development;
-- professional workflow automation;
-- medico-legal technology;
-- healthcare operations and decision support;
-- tools that return professional attention to the work that actually requires judgment.
-
-I like software that removes repetitive work without pretending to replace professional judgment.
-
----
-
-## 07 / CONTACT
-
-I am interested in conversations around **digital health, clinical software, healthcare operations, medico-legal technology and physician-led product development**.
-
-**LinkedIn:** [linkedin.com/in/drajoyceradis](https://br.linkedin.com/in/drajoyceradis)  
-**Website:** [drajoyceradis.com](https://drajoyceradis.com)  
-**Email:** [contato@drajoyceradis.com](mailto:contato@drajoyceradis.com)
-
-<sub>Public repositories are portfolio, evaluation and demonstration projects. Project-specific licensing, privacy and security terms apply.</sub>
+[LinkedIn](https://br.linkedin.com/in/drajoyceradis) · [Website](https://drajoyceradis.com) · [Email](mailto:contato@drajoyceradis.com)
 
 <!-- profile-readme: active -->
