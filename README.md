@@ -1,4 +1,4 @@
-<img alt="Dra. Joyce Radis — Medicine × Software; animated ECG header that adapts to light and dark themes" src="https://raw.githubusercontent.com/joyceradis/joyceradis/main/profile-assets/joyce-header-adaptive.svg" width="100%">
+<img alt="Dra. Joyce Radis — Medicine × Software; animated ECG header that adapts to light and dark themes" src="profile-assets/joyce-header-adaptive.svg" width="100%">
 
 <p align="center">
   <strong>Brazilian Physician · CRM-ES 21188 · Emergency & Acute Care · Court-Appointed Medical Expert</strong><br>
