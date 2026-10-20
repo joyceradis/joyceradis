@@ -37,7 +37,7 @@ I work on the requirements, interfaces, domain rules and testing. The projects a
 A structured workspace for medical expert assessments, from defining the questions to organizing evidence, methodology and the final report. I am developing it as a standalone product, with licensed access or subscriptions as a possible business model. The current public version is a prototype and must not be used for real case files.
 
 **[MOOV](https://github.com/joyceradis/MOOV)**  
-Ambulance fleet operations: transport requests, timestamps, vehicle use, handoffs and audit records. The demo runs on fictional data; a server-based implementation is also under development. My aim is to offer it to organizations through a commercial licence or subscription after operational and security validation. It is not a dispatch or GPS-tracking system.
+Ambulance fleet operations: transport requests, timestamps, vehicle use, handoffs and audit records. The demonstration uses fictional data. An operational backend has not been authorised or implemented; that phase would require institutional requirements, access controls and privacy validation. A commercial licence or subscription is a possible future model. It is not a dispatch or GPS-tracking system.
 
 **[ZeraPS](https://github.com/joyceradis/ZeraPS)**  
 An emergency-department documentation workflow that preserves the sequence of an encounter: initial assessment, pending results, reassessment and final documentation. It is under validation, not a certified clinical system.
@@ -49,9 +49,6 @@ An educational reference for echocardiography measurements, calculations and con
 
 **[Quem Votar?](https://github.com/joyceradis/Quem-Votar)**  
 An independent civic information project for elections in Espírito Santo. Candidate information is tied to sources rather than scores or voting recommendations.
-
-**[Kit do Perito](https://github.com/joyceradis/pericia-medica)**  
-Balthazard and AIPE/Brasil tools, kept separate from MedPer. The calculations, methodological limits and tests are documented in the repository.
 
 **[AuditorES](https://github.com/joyceradis/AuditorES)**  
 A demonstration of healthcare contract auditing: indicators, documentary evidence and alerts for human review.
