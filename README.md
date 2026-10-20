@@ -1,8 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/joyceradis/joyceradis/main/profile-assets/joyce-header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/joyceradis/joyceradis/main/profile-assets/joyce-header-light.svg">
-  <img alt="Dra. Joyce Radis — Medicine × Software" src="https://raw.githubusercontent.com/joyceradis/joyceradis/main/profile-assets/joyce-header-light.svg" width="100%">
-</picture>
+<img alt="Dra. Joyce Radis — Medicine × Software; animated ECG header that adapts to light and dark themes" src="profile-assets/joyce-header-adaptive.svg" width="100%">
 
 <p align="center">
   <strong>Brazilian Physician · CRM-ES 21188 · Emergency & Acute Care · Court-Appointed Medical Expert</strong><br>
