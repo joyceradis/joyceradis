@@ -20,7 +20,7 @@ jobs:
       - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@v1
         with:
-          options: user=${{joyceradis}}&theme=default&disable_animations=true
+          options: user=joyceradis&theme=default&disable_animations=true
           path: profile/streak.svg
 
       - name: Commit streak stats
