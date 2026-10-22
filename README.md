@@ -63,6 +63,10 @@ A blank field is not a negative finding. A template is not a performed examinati
 
 These distinctions guide the design and testing of my clinical and medico-legal tools.
 
+## External clinical contribution
+
+**[OpenEMR · inpatient workflows](https://github.com/openemr/openemr/issues/11426#issuecomment-5739049806)** — Pointed out why changes in bed, ward and service need a traceable history rather than overwriting admission data, including beds reserved while a patient is still in the ED. The module developer incorporated transfer history and bed reservations in the independent nursing module's [v1.3.0 release](https://github.com/GustavoOtazu/oe-module-nursing/releases/tag/v1.3.0). Clinical workflow contribution; implementation by the module developer.
+
 ## Technical work
 
 Python, JavaScript, TypeScript, HTML and CSS; web interfaces and PWAs; data models, testing and GitHub Actions. The [engineering notes](ENGINEERING.md) explain how the repositories are documented; the implementation and test evidence live with each project.
